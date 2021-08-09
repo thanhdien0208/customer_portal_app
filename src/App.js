@@ -8,6 +8,7 @@ import Reports from './pages/Reports';
 import Account from './pages/Account';
 import Dashboard from './pages/Dashboard';
 import SharedDirs from './pages/SharedDirs';
+import MessengerCustomerChat from 'react-messenger-customer-chat';
 
 
 function App() {
@@ -23,6 +24,10 @@ function App() {
           <Route path='/account' exact component={Account} />
         </Switch>
       </Router>
+      <MessengerCustomerChat
+      pageId="106123264188732"
+      appId="2417809361802564"
+      />
     </>
   );
 }
